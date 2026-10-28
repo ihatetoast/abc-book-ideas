@@ -41,6 +41,6 @@ const filteredEntries = computed(() =>
       :themes="existingThemes"
       :letters="usedLetters"
     />
-    <CardList :entries="filteredEntries" />
+    <CardList :entries="filteredEntries" :theme="themeFilter" :letter="letterFilter" />
   </main>
 </template>
